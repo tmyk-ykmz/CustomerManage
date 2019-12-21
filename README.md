@@ -1,3 +1,3 @@
-# Customer_system
+# CustomerManage
 # 顧客管理システム
 # 企業実習サンプル
