@@ -43,6 +43,7 @@
                 <td class="center">
                 <form action="CustomerServlet" method="post">
                     <button name="state" value="detail,<%=customer.getId()%>">詳細</button>
+                    <button name="state" value="delete_confirm,<%=customer.getId()%>">削除</button>
                 </form>
                 </td>
 
