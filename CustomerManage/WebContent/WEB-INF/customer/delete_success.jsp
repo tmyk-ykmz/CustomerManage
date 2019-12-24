@@ -9,9 +9,11 @@
 <body>
     <h1>顧客管理</h1>
     <div class="main">
-
-        <!-- TODO ｢削除完了｣画面 -->
-
+        <h2>削除完了</h2>
+        <form action="CustomerServlet" method="post"></form>
+        <p>
+            <button name="state" value="search">検索画面</button>
+        </p>
     </div>
 </body>
 </html>

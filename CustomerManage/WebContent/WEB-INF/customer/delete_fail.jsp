@@ -9,6 +9,13 @@
 <body>
     <h1>顧客管理</h1>
     <div class="main">
+        <h2>削除未完了</h2>
+        <h2><%=session.getAttribute("errMessage")%></h2>
+        <form action="CustomerSevlet" method="post">
+            <p>
+                <button name="state" value="seach">検索画面</button>
+            </p>
+        </form>
 
         <!-- TODO ｢削除未完了｣画面 -->
 
